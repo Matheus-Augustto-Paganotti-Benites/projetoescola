@@ -23,19 +23,5 @@ public class Aluno extends BasePessoaFisica {
         this.matricula = matricula;
         this.dataMatricula = dataMatricula;
     }
-    @Override
-    public void Imprimir() {
-        System.out.println("Codigo: " + this.codigo);
-        System.out.println("Nome: " + this.nome);
-        System.out.println("Endereço: " + this.nome);
-        System.out.println("Telefone: " + this.telefone);
-        System.out.println("RG: " + this.rg);
-        System.out.println("CPF: " + this.cpf);
-        System.out.println("Data de Nascimento: " + this.dataNascimento);
-        System.out.println("Matricula: " + this.matricula);
-        System.out.println("Data de Matrícula: " + this.dataMatricula);
-        System.out.println("Data de Inserção:" + this.dataInsercao);
-    }
-
 }
 

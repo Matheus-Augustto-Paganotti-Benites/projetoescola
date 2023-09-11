@@ -20,10 +20,4 @@ public class Professor extends BaseFuncionario {
                 dataVinculoInicial, dataVinculoFinal);
         this.cadeira = cadeira;
     }
-
-    @Override
-    public void Imprimir() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'Imprimir'");
-    }
 }

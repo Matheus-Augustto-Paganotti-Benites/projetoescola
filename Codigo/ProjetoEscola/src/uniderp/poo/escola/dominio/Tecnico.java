@@ -20,10 +20,4 @@ public class Tecnico extends BaseFuncionario {
                 dataVinculoInicial, dataVinculoFinal);
         this.setor = setor;
     }
-
-    @Override
-    public void Imprimir() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'Imprimir'");
-    }
 }
