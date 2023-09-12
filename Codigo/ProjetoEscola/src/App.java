@@ -15,6 +15,6 @@ public class App {
         "101", 
         LocalDate.of(2002, 2, 5));
 
-        // a1.Imprimir();
+        a1.Imprimir();
     }
 }

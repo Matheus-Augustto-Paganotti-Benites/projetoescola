@@ -32,4 +32,20 @@ public class Fornecedor extends BasePessoaJuridica {
         this.dataContrato = dataContrato;
         this.periodoEmMeses = periodoEmMeses;
     }
+
+    @Override
+    public void Imprimir() {
+        System.out.println("Codigo: " + this.codigo);
+        System.out.println("Data de Inserção:" + this.dataInsercao);
+        System.out.println("Endereço: " + this.endereco);
+        System.out.println("Telefone: " + this.telefone);
+        System.out.println("Nome Fantasia: " + this.nomeFantasia);
+        System.out.println("Razão Social: " + this.razaoSocial);
+        System.out.println("CNPJ: " + this.cnpj);
+        System.out.println("Inscrição Estadual: " + this.ie);
+        System.out.println("Data de Abertura: " + this.dataAbertura);
+        System.out.println("Serviço: " + this.servico);
+        System.out.println("Data do Contrato: " + this.dataContrato);
+        System.out.println("Período em Meses: " + this.periodoEmMeses);
+    }
 }
